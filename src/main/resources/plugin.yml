@@ -1,0 +1,11 @@
+name: Engineering_excercise
+version: '${project.version}'
+main: me.xplore.engineering_excercise.Engineering_excercise
+api-version: 1.19
+commands:
+  wheel:
+    description: opens wheel
+    usage: /wheel
+  add_item:
+    description: adds mongo item
+    usage: /add_item val chance
